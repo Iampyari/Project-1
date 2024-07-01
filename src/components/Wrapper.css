@@ -1,0 +1,82 @@
+.bckgrd{
+    background-image: url('C:\Users\Asus\Music\matthew-henry-yETqkLnhsUI-unsplash (1).jpg'); /* Adjust the path based on your project structure */
+    display: flex;
+    
+    background-size: cover;
+    background-position: center bottom;
+    height: 102vh;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ho{
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    right: 40px;
+    top: 20px;
+    user-select: none;
+    position: fixed;
+    padding: 5px 18px;
+  }
+  
+  
+  
+  
+  .logo{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    left: 20px;
+    top: 20px;
+    position: fixed;
+    user-select: none;
+  }
+  
+  .container{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    left: 500px;
+    top: 500px;
+  }
+  
+  
+  .wrapper1 {
+    border: 2px solid #000000;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 30px rgb(59, 59, 59);
+    height: 450px;
+    width: 350px;
+    position: fixed;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 45%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); 
+  
+  }
+  
+  .log2{
+  text-align: center;
+  top: 10px;
+  }
+  
+  .box{
+    text-align: left;
+  }
+  
+  .ho:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
