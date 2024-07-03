@@ -37,13 +37,6 @@
     user-select: none;
   }
   
-  .container{
-    width: 500px;
-    height: 500px;
-    align-items: center;
-    left: 500px;
-    top: 500px;
-  }
   
   
   .wrapper1 {
@@ -68,15 +61,53 @@
   }
   
   .log2{
-  text-align: center;
-  top: 10px;
-  }
-  
-  .box{
-    text-align: left;
+   position: fixed;
+   top: 50px;
   }
   
   .ho:hover{
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+  }
+
+  
+
+  .box1{
+    position: fixed;
+    top: 120px;
+  }
+
+  .box2{
+    position: fixed;
+    top: 180px;
+  }
+
+  .box3{
+    position: fixed;
+    top: 230px;
+    left: 80px;
+  }
+
+  .box4{
+    position: fixed;
+    top: 230px;
+    left: 80px;
+  }
+
+  .box5{
+    position: fixed;
+    top: 270px;
+    left: 80px;
+  }
+
+  .box{
+    position: fixed;
+    top: 300px;
+    left: 70px;
+  }
+  
+  .box6{
+    position: fixed;
+    top: 370px;
+    left: 70px;
   }

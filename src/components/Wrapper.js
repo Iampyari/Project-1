@@ -32,39 +32,44 @@ const Wrapper = () => {
       </nav>
         
 <div className='wrapper1'>
-        <form>
-        <h3 className='log2'>Login</h3><br/>
-        <label>
-        <div className='box'>Username:<br></br>
-          <input
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}/>
-           </div>
-        </label>
-        <br />
-        <label>
-        <div className='box'>Password:<br/>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}/>
-           </div>
-        </label>
         
-        <div className="forgot-pass">
+        <h3 className='log2'>Login</h3><br/>
+       
+        <div className="box1">
+            <label>
+              Username:<br/>
+              <input
+                type="text"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+              />
+            </label>
+          </div>
+          <div className="box2">
+            <label>
+              Password:<br/>
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </label>
+          </div>
+          <label>
+        <div className="box4">
                     <a href="#">Forgot Password !</a>
                 </div><br/>
-        <button type="button" onClick={handleLogin}>
+       <button type="button" className='box5' onClick={handleLogin}>
           Login
         </button>
-        {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
-        <div class="register-login">
-                  <p>Don't have an account?<a href="file:///C:/Users/Asus/OneDrive/Desktop/E-Billing%20System/signup2.html">Sign up</a></p>
+        {errorMessage && <p className='box' style={{ color: 'red' }}>{errorMessage}</p>}
+        <div class="box6">
+                  <p>Don't have an account?<a href="#">Sign up</a></p>
                 </div>
-            </form>
+                </label>
+           </div>
       </div>
-  </div>
+  
   );
 };
 
